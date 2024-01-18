@@ -1,5 +1,10 @@
-
 ## what is DDColor ? 
+
+
+
+
+![Screenshot from 2024-01-18 15-55-58](https://github.com/Kirouane-Ayoub/DDColorization_App/assets/99510125/7907e151-e1da-4b43-b64c-f1b7fcf55eed)
+
 
 DDColor is an end-to-end method for image colorization that addresses challenges such as multi-modal uncertainty, high ill-posedness, incorrect semantic colors, and low color richness. The approach proposed in DDColor involves the use of dual decoders:
 
@@ -29,3 +34,7 @@ cd DDColor
 
 python app.py
 ```
+
+
+![Screenshot from 2024-01-18 15-42-21](https://github.com/Kirouane-Ayoub/DDColorization_App/assets/99510125/e5c03cf2-9b40-4690-82c8-efcf05c6f99b)
+
