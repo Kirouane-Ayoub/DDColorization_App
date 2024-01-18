@@ -30,9 +30,9 @@ apt -y install -qq aria2
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/cv_ddcolor_image-colorization/resolve/main/pytorch_model.pt -d DDColor/models -o pytorch_model.pt
 
 pip install -q timm gradio gradio_imageslider
+sed -i 's/from \.version import __gitsha__, __version__/# from \.version import __gitsha__, __version__/' DDColor/basicsr/__init__.py
+cp . DDColor
 cd DDColor
-!sed -i 's/from \.version import __gitsha__, __version__/# from \.version import __gitsha__, __version__/' DDColor/basicsr/__init__.py
-
 python app.py
 ```
 
