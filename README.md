@@ -16,6 +16,7 @@ The two decoders in DDColor work collaboratively to establish correlations betwe
 
 To enhance color richness, DDColor introduces a simple yet effective colorfulness loss. This loss function aims to improve the vibrancy and diversity of colors in the colorized images.
 
+**https://arxiv.org/pdf/2212.11613.pdf**
 
 
 
